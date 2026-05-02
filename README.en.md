@@ -41,7 +41,6 @@ Watch the **6 phases of Event Storming** unfold automatically over ~45 seconds �
 | How to view | Link |
 |---|---|
 | 🌐 **Live site** | [msa-dev.fact-mine.com/demo/ecommerce-storming.html](https://msa-dev.fact-mine.com/demo/ecommerce-storming.html) |
-| 📂 **Download & open** | [`samples/01-ecommerce-event-storming.html`](samples/01-ecommerce-event-storming.html) |
 | 🪄 **From the editor** | Top-right **📺** button or intro splash → "📺 Watch walkthrough (45s)" |
 
 **Domain shown**: E-Commerce — 9 events · 5 microservice candidates · external systems · auto-extracted policies & hotspots.

@@ -1,18 +1,15 @@
-# Samples — 샘플 데이터
+# Samples — 표준 입력 데이터
 
-이 도구의 표준 입출력 형식을 보여주는 실제 샘플들.
+이 도구의 표준 입력 형식을 보여주는 실제 샘플 XLSX.
+
+> 📺 절차 데모(애니메이션 자료)는 라이브 사이트에서만 제공됩니다 → [msa-dev.fact-mine.com/demo/ecommerce-storming.html](https://msa-dev.fact-mine.com/demo/ecommerce-storming.html)
+
+---
 
 ## 01 · 온라인쇼핑몰 (E-commerce)
 
 가장 흔한 MSA 사례 — 10 도메인 / 83 이벤트 풀 워크숍 결과.
 
-### 화면 미리보기
-
-| 보드 + AI 검토 | 헥사고날 다이어그램 | AI 채팅 |
-|---|---|---|
-| ![보드](../docs/images/02-board-ai-review.png) | ![헥사](../docs/images/03-hexagonal.png) | ![채팅](../docs/images/04-board-ai-chat.png) |
-
-### 입력 데이터
 📂 [`01-ecommerce-events.xlsx`](01-ecommerce-events.xlsx) — 표준 17 컬럼 형식 (15 KB · 5 시트)
 
 | 시트 | 내용 |
@@ -22,16 +19,6 @@
 | 외부시스템 | 12 행 (PG시스템·CJ대한통운·AWS SES·FCM 등) |
 | 데이터저장소 | 15 행 (PostgreSQL·Redis·ES·MongoDB·S3) |
 | 작성가이드 | 입력 형식 안내 |
-
-### 📺 절차 애니메이션 데모 (45초)
-📂 [`01-ecommerce-event-storming.html`](01-ecommerce-event-storming.html) — **6 단계 자동 재생 데모** (46 KB)
-
-> 단순 결과 캡처가 아니라, **이벤트 → 액터 → 커맨드 → 애그리거트 → 외부/정책 → 바운디드 컨텍스트 → 마이크로서비스 카드**가 약 45초 동안 시간순으로 펼쳐지는 시연 자료입니다.
-
-**보는 방법** (3가지):
-1. 🌐 라이브: [msa-dev.fact-mine.com/demo/ecommerce-storming.html](https://msa-dev.fact-mine.com/demo/ecommerce-storming.html)
-2. 📂 위 파일 다운로드 → 브라우저로 직접 열기
-3. 🪄 데모 사이트 들어가서 우상단 **📺** 버튼
 
 ### 도메인 구성
 
@@ -60,6 +47,12 @@ PG시스템(Toss/이니시스/PortOne) · 카카오페이 · 네이버페이 · 
 
 ### 핫스팟 (워크숍 발견 사항)
 결제대기 · 재고부족 · 신고누적 · 카드정보유출 · 선착순폭주 · 비밀번호공격 · 위변조시도 · 스팸한도
+
+### 화면 미리보기
+
+| 보드 + AI 검토 | 헥사고날 다이어그램 | AI 채팅 |
+|---|---|---|
+| ![보드](../docs/images/02-board-ai-review.png) | ![헥사](../docs/images/03-hexagonal.png) | ![채팅](../docs/images/04-board-ai-chat.png) |
 
 ---
 
