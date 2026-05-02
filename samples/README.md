@@ -23,10 +23,15 @@
 | 데이터저장소 | 15 행 (PostgreSQL·Redis·ES·MongoDB·S3) |
 | 작성가이드 | 입력 형식 안내 |
 
-### 결과물 (HTML 미리보기)
-📂 [`01-ecommerce-event-storming.html`](01-ecommerce-event-storming.html) — 이벤트 스토밍 보드를 webpage 로 export 한 완성 결과 (46 KB)
+### 📺 절차 애니메이션 데모 (45초)
+📂 [`01-ecommerce-event-storming.html`](01-ecommerce-event-storming.html) — **6 단계 자동 재생 데모** (46 KB)
 
-브라우저로 직접 열면 전체 워크숍 결과를 한눈에 볼 수 있습니다. 인쇄 가능 (A3 권장).
+> 단순 결과 캡처가 아니라, **이벤트 → 액터 → 커맨드 → 애그리거트 → 외부/정책 → 바운디드 컨텍스트 → 마이크로서비스 카드**가 약 45초 동안 시간순으로 펼쳐지는 시연 자료입니다.
+
+**보는 방법** (3가지):
+1. 🌐 라이브: [msa-dev.fact-mine.com/demo/ecommerce-storming.html](https://msa-dev.fact-mine.com/demo/ecommerce-storming.html)
+2. 📂 위 파일 다운로드 → 브라우저로 직접 열기
+3. 🪄 데모 사이트 들어가서 우상단 **📺** 버튼
 
 ### 도메인 구성
 

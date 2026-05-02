@@ -8,6 +8,13 @@
   <a href="https://msa-dev.fact-mine.com">
     <img alt="Live demo" src="https://img.shields.io/badge/▶_Live_Demo-msa--dev.fact--mine.com-F5A623?style=for-the-badge&labelColor=0F1729">
   </a>
+  <a href="https://msa-dev.fact-mine.com/demo/ecommerce-storming.html">
+    <img alt="45-second walkthrough" src="https://img.shields.io/badge/📺_45s_Walkthrough-E--Commerce-EC4899?style=for-the-badge&labelColor=0F1729">
+  </a>
+</p>
+
+<p align="center">
+  <img alt="Version" src="https://img.shields.io/badge/Version-v0.95-2E868C?labelColor=222D45">
 </p>
 
 <p align="center">
@@ -24,6 +31,20 @@ Starting from past-tense domain events, you progressively fill in actors, comman
 In one sentence: **Excel sheet → Storming board → 7 deliverables (XLSX·PPTX) → MSA blueprint**
 
 🔗 **Live demo**: [https://msa-dev.fact-mine.com](https://msa-dev.fact-mine.com)
+
+---
+
+## 📺 45-Second Walkthrough
+
+Watch the **6 phases of Event Storming** unfold automatically over ~45 seconds — domain events → actors → commands → aggregates → externals/policies → bounded contexts → microservice cards.
+
+| How to view | Link |
+|---|---|
+| 🌐 **Live site** | [msa-dev.fact-mine.com/demo/ecommerce-storming.html](https://msa-dev.fact-mine.com/demo/ecommerce-storming.html) |
+| 📂 **Download & open** | [`samples/01-ecommerce-event-storming.html`](samples/01-ecommerce-event-storming.html) |
+| 🪄 **From the editor** | Top-right **📺** button or intro splash → "📺 Watch walkthrough (45s)" |
+
+**Domain shown**: E-Commerce — 9 events · 5 microservice candidates · external systems · auto-extracted policies & hotspots.
 
 ---
 

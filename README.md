@@ -9,9 +9,13 @@
   <a href="https://msa-dev.fact-mine.com">
     <img alt="Live demo" src="https://img.shields.io/badge/▶_Live_Demo-msa--dev.fact--mine.com-F5A623?style=for-the-badge&labelColor=0F1729">
   </a>
+  <a href="https://msa-dev.fact-mine.com/demo/ecommerce-storming.html">
+    <img alt="45초 절차 데모" src="https://img.shields.io/badge/📺_45초_절차_데모-온라인쇼핑몰-EC4899?style=for-the-badge&labelColor=0F1729">
+  </a>
 </p>
 
 <p align="center">
+  <a href="#"><img alt="Version" src="https://img.shields.io/badge/Version-v0.95-2E868C?labelColor=222D45"></a>
   <a href="#"><img alt="Stack" src="https://img.shields.io/badge/Stack-Express_·_FastAPI_·_Ollama-2E868C?labelColor=222D45"></a>
   <a href="#"><img alt="LLM" src="https://img.shields.io/badge/LLM-Gemma_27B_+_RAG-F5A623?labelColor=222D45"></a>
   <a href="#"><img alt="Docs" src="https://img.shields.io/badge/Docs-Korean_·_English-0EA5E9?labelColor=222D45"></a>
@@ -28,6 +32,20 @@
 > 한 마디로: **엑셀 한 장 → 스토밍 보드 → 7종 산출물(XLSX·PPTX) → MSA 청사진**
 
 🔗 **데모 사이트**: [https://msa-dev.fact-mine.com](https://msa-dev.fact-mine.com)
+
+---
+
+## 📺 45초 절차 데모
+
+이벤트 스토밍의 **6단계 워크플로우가 시간순으로 자동 재생**되는 자료입니다 — 도메인 이벤트 → 액터 → 커맨드 → 애그리거트 → 외부/정책 → 바운디드 컨텍스트 → 마이크로서비스 카드까지 약 45초 동안 한 화면에서 펼쳐집니다.
+
+| 보기 방법 | 링크 |
+|---|---|
+| 🌐 **라이브 데모 사이트** | [msa-dev.fact-mine.com/demo/ecommerce-storming.html](https://msa-dev.fact-mine.com/demo/ecommerce-storming.html) |
+| 📂 **다운로드 후 직접 열기** | [`samples/01-ecommerce-event-storming.html`](samples/01-ecommerce-event-storming.html) |
+| 🪄 **에디터에서 호출** | 사이트 우상단 **📺** 버튼 또는 인트로 스플래시 → "📺 절차 데모 보기 (45초)" |
+
+**제재 사례**: 「온라인쇼핑몰」 도메인 — 9개 이벤트(접수→처리→완료) · 5개 마이크로서비스 후보 · 핵심 외부 시스템 · 정책·핫스팟 자동 도출 시연.
 
 ---
 
