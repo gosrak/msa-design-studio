@@ -1,0 +1,35 @@
+# 이 저장소는 문서·샘플 전용 — 빌드 산출물·소스 제외
+node_modules/
+.venv*/
+__pycache__/
+*.pyc
+*.pyo
+.env
+.env.local
+
+# 임시
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# 에디터
+.vscode/
+.idea/
+*.code-workspace
+
+# 로그
+*.log
+logs/
+
+# 산출물 (소개 저장소이므로 미배포)
+dist/
+build/
+out/
+
+# OS
+.directory
+
+# 비공개 자료 — 이 디렉토리에 들어가면 절대 커밋 안 됨
+private/

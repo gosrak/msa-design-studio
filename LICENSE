@@ -1,0 +1,48 @@
+MSA Design Studio — License
+
+Copyright (c) 2026 fact-mine.com
+
+This repository contains DOCUMENTATION, SAMPLES, and IMAGES for the
+MSA Design Studio project. The actual source code of the application is
+proprietary and not included in this repository.
+
+DOCUMENTATION & SAMPLES (this repository)
+─────────────────────────────────────────
+The contents of this public repository (README, docs/, samples/, examples/,
+images, and screenshots) are licensed under:
+
+  Creative Commons Attribution 4.0 International (CC BY 4.0)
+  https://creativecommons.org/licenses/by/4.0/
+
+You are free to:
+  • Share — copy and redistribute the material in any medium or format
+  • Adapt — remix, transform, and build upon the material for any purpose
+
+Under the following terms:
+  • Attribution — Provide a link to https://msa-dev.fact-mine.com and
+    indicate any changes were made.
+
+LIVE DEMO SITE
+──────────────
+The live demo at https://msa-dev.fact-mine.com is provided free of charge
+for personal and educational use. Data you create on the demo site is
+stored only in your browser's localStorage and never transmitted to
+external servers.
+
+For commercial / on-premise / enterprise use, please contact via the demo
+site or open an issue on this repository.
+
+PROPRIETARY SOURCE CODE
+───────────────────────
+The application source code (including but not limited to the editor,
+backend services, AI integration, and build pipeline) is proprietary and
+maintained in a separate private repository. Distribution, reverse
+engineering, or recompilation of the live demo's compiled assets is not
+permitted.
+
+DISCLAIMER
+──────────
+THIS REPOSITORY AND THE DEMO SITE ARE PROVIDED "AS IS" WITHOUT WARRANTY
+OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT.

@@ -1,0 +1,61 @@
+name: 🐛 버그 신고
+description: 데모 사이트의 동작 오류를 알려주세요
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        데모 사이트 [https://msa-dev.fact-mine.com](https://msa-dev.fact-mine.com) 의 버그를 신고해주세요.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 발생한 현상
+      description: 무엇을 시도했고 무엇이 일어났나요?
+      placeholder: 예) 양식지 다운로드 버튼을 눌렀더니 빈 파일이 받아졌습니다.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 예상 동작
+      placeholder: 예) 5개 시트(전체이벤트·액터·외부시스템·데이터저장소·작성가이드)가 들어있어야 합니다.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 재현 절차
+      placeholder: |
+        1. 사이트 접속
+        2. 인트로 닫기
+        3. 📋 양식지 다운로드 클릭
+        4. 받은 파일 열기
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: 브라우저
+      options:
+        - Chrome
+        - Edge
+        - Safari
+        - Firefox
+        - 기타
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: 운영체제 / 버전
+      placeholder: Windows 11 / macOS 14 / Ubuntu 22.04 등
+
+  - type: textarea
+    id: console
+    attributes:
+      label: DevTools 콘솔 에러 (있다면)
+      render: shell

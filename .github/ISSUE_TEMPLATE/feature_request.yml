@@ -1,0 +1,33 @@
+name: ✨ 기능 요청
+description: 새로운 기능·개선 아이디어를 제안해주세요
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 어떤 문제를 해결하고 싶으신가요?
+      placeholder: 예) 헥사고날 다이어그램에서 외부 시스템 연결선의 색상을 SLA 등급에 따라 다르게 보여주면 좋겠습니다.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: 제안하는 해결 방안
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 검토한 다른 대안
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: 우선순위 (본인 기준)
+      options:
+        - 🔴 매우 중요 (이 기능 없이는 사용 어려움)
+        - 🟡 있으면 좋음
+        - 🟢 nice to have
